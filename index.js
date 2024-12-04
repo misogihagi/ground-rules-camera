@@ -18,7 +18,7 @@ const texts = [
 (async function () {
   for (var i = 0; i < texts.length; i++) {
     await nodeHtmlToImage({
-      output: "./image" + (i + 1) + ".png",
+      output: "./image" + i + ".png",
       timeout: 1000 * 60 * 10,
       html: `<html>
     <head>
