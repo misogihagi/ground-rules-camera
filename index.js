@@ -1,7 +1,7 @@
 import font2base64 from "node-font2base64";
 import nodeHtmlToImage from "node-html-to-image";
 
-const _data = font2base64.encodeToDataUrlSync("./kssweetheavycalligraphy.ttf");
+const _data = font2base64.encodeToDataUrlSync("./kssweetheavycalligraphy100/kssweetheavycalligraphy.ttf");
 
 const texts = [
   "最ぜんをつくしたことをうたがわない",
